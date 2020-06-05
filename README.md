@@ -1,2 +1,3 @@
-# cloud
+# Cloud
+
 Miscellaneous Nextcloud stuff
