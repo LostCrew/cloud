@@ -1,0 +1,45 @@
+body {
+  font-size: 0.85em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#body-login {
+  background-image: url('/index.php/apps/theming/image/background?v=17'), linear-gradient(40deg, #323234 0%, #646468 100%) !important;
+}
+
+#app-navigation {
+  top: 60px !important;
+}
+
+#content {
+  padding-top: 60px;
+}
+
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+  height: 60px;
+}
+
+#appmenu li a {
+  height: 60px;
+  width: 60px;
+}
+
+#appmenu li:hover a::before {
+  border-bottom-color: var(--color-main-background);
+}
+
+#appmenu:hover li svg, 
+#appmenu:hover li .icon-more, 
+#appmenu:hover li .icon-more-white, 
+#appmenu:hover li .icon-loading-small, 
+#appmenu:hover li .icon-loading-small-dark {
+  transform: translateY(-10px);
+}
+
+#appmenu:hover li span {
+  bottom: 5px;
+}
